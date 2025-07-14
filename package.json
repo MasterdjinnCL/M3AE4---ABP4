@@ -1,0 +1,40 @@
+{
+  "name": "m3ae4-abp4-box-model",
+  "version": "1.0.0",
+  "description": "Demostración interactiva del Modelo de Cajas CSS con SASS 7-1 y diseño responsivo por Juan Pablo Berrios",
+  "main": "index.html",
+  "scripts": {
+    "watch-css": "sass --watch sass/style.scss:css/style.css --style expanded --source-map",
+    "build-css": "sass sass/style.scss css/style.css --style compressed --source-map",
+    "serve": "live-server --port=3000 --open=/index.html",
+    "dev": "npm run watch-css & npm run serve",
+    "build": "npm run build-css"
+  },
+  "keywords": [
+    "css",
+    "box-model",
+    "sass",
+    "responsive",
+    "web-development",
+    "frontend",
+    "html5",
+    "javascript",
+    "demo",
+    "educational"
+  ],
+  "author": "Juan Pablo Berrios <jpberrios1@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.77.0",
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MasterdjinnCL/M3AE4---ABP4.git"
+  },
+  "homepage": "https://masterdjinncl.github.io/M3AE4---ABP4/",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
